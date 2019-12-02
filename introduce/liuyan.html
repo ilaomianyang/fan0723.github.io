@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>留言给我吧</title>
+	<style type="text/css">
+		body{background-image: url("../image/富士山.jpg"); width: 100%; height: 1000px; background-size: cover;}
+		.table{text-align: center; font-weight: 600;}
+		td{color:#6F191A;}
+		.caption{font-size: 25px; color: #691C1E; float: inherit;}
+		.center{text-align: center; color: #000000;}
+	</style>
+</head>
+
+<body>
+<form action="submit.td" method="post">
+	<table class="table" border="1" cellpadding="0" cellspacing="0" align="center">
+		<caption class="caption">给我留言</caption>
+		<tr>
+			<td>你的昵称：<input type="text" name="nicheng"></td>
+			<td>你的性别：<select name="sex"> 
+				<option value="women">女</option>
+				<option value="men">男</option>
+				<option value="unknow">不想透露</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>你的邮箱：<input type="email" name="mail"></td>
+			<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="ename">
+				<option value="qq">qq.com</option>
+				<option value="163">163.com</option>
+				<option value="gmail">gmail.com</option>
+				<option value="sina">sina.com</option>
+				<option value="tom">tom.com</option>
+				<option value="firefox">firefox.com</option>
+				<option value="qita">其他</option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>你的联系方式：&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+				<select name="linking">
+				<option value="qq">QQ</option>
+				<option value="wechat">微信</option>
+				<option value="telephone">电话</option>
+				<option value="email">邮箱</option>
+				<option value="Sinaweibo">新浪微博</option>
+				<option value="face to face">见面</option>
+				</select>
+			<td>_<input type="tel" name="tel"></td>
+			</td>
+		</tr>
+	<tr>
+		<td>留言内容：</td>
+		<td><textarea name="liuyan" rows="4">这个人很懒，什么都没有留下。。。</textarea></td>
+	</tr>
+	</table>
+</form>
+<p>
+<div style="position:fixed; bottom:0px; width:100%; text-align:center;">
+	<h5 class="center">版权 &copy;:版权所有，违者必究</h5>
+	<h5 class="center">Design By 范明洋</h5>
+	<h6 class="center"><a href="mailto:ilaomianyang@outlook.com?subject=Hello;"><address>E-mail:ilaomianyang@outlook.com</address></a></h6></div>
+
+</p>
+
+</body>
+</html>
